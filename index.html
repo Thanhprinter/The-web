@@ -3,6 +3,20 @@
   <head>
     <title>Máy In Ngoc Viet </title>
     <style>
+      div.example1 {
+        width: 300px;
+        height: 100px;
+        background-color: red;
+        animation-name: keyframes1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes keyframes1 {
+        0%  {background-color: red;}
+        50%  {background-color: yellow;}
+        70%  {background-color: blue;}
+        100% {background-color: green;}
+    }
       body {
         background-color: #12a9e0;
         text-align: center;
@@ -21,6 +35,7 @@
     </style>
   </head>
   <body>
+    <div class="example1"></div>
     <h1>MÁY IN NGỌC VIỆT </h1>
     <input type="button" onclick="alert('Xin Chào Mọi Người')" value="Click Me!">
     <p>Chuyên mực in, máy in, giấy các loại</p>
